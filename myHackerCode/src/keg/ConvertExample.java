@@ -141,4 +141,21 @@ public class ConvertExample
 
 	}
 
+	/**
+	 * showing different ways to convert char to int
+	 */
+	public static void convertInt()
+	{
+		char ch = '1';
+		int num = Integer.parseInt(String.valueOf(ch));
+		char ch1 = 'P';
+		char ch2 = 'h';
+
+		// conversion using Character.getNumericValue()
+		int asciiVal1 = Character.getNumericValue(ch1);
+		int asciiVal2 = Character.getNumericValue(ch2);
+		System.out.println("ASCII value of char " + ch1 + " is: " + asciiVal1);
+		System.out.println("ASCII value of char " + ch2 + " is: " + asciiVal2);
+	}
+
 }
