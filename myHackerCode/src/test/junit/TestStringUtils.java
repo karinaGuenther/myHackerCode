@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import keg.kStringUtils;
+import keg.challanges.kStringUtils;
 
 /**
  * @author Owner assertTrue(test) assertTrue("message", test)
@@ -16,7 +16,7 @@ class TestStringUtils
 {
 
 	/**
-	 * Test method for {@link keg.kStringUtils#reverseString(java.lang.String)}.
+	 * Test method for {@link keg.challanges.kStringUtils#reverseString(java.lang.String)}.
 	 */
 	@Test
 	void testReverseString()

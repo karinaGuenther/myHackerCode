@@ -9,7 +9,6 @@ module myHackerCode
 {
 	exports keg.thirtyDays;
 	exports keg.linkedExample;
-	exports keg;
 	exports test.junit;
 
 	requires java.logging;

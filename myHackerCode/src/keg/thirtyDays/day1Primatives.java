@@ -21,15 +21,18 @@ public class day1Primatives
 		Scanner scan = new Scanner(System.in);
 
 		/* Declare second integer, double, and String variables. */
-		int myInt = 0;
+		int myInt;
+		;
 		double myDouble = 0;
 		String myString = null;
 
-		Scanner sc = new Scanner(System.in);
-
 		/* Read and save an integer, double, and String to your variables. */
 		System.out.println("Enter a integer");
-
+		myInt = scan.nextInt();
+		System.out.println("Enter a double");
+		myDouble = scan.nextDouble();
+		System.out.println("Enter a string");
+		myString = scan.nextLine();
 		// Note: If you have trouble reading the entire String, please go back and
 		// review the Tutorial closely.
 
