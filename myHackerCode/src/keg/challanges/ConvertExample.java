@@ -1,4 +1,4 @@
-package keg;
+package keg.challanges;
 
 import java.io.BufferedReader;
 import java.io.IOException;

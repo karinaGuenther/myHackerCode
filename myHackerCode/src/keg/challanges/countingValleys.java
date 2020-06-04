@@ -1,7 +1,7 @@
 /**
  * 
  */
-package keg;
+package keg.challanges;
 
 /**
  * @author Owner
