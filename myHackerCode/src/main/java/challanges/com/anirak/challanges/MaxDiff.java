@@ -1,4 +1,4 @@
-package keg.challanges;
+package com.anirak.challanges;
 import java.io.*;
 import java.math.*;
 import java.security.*;

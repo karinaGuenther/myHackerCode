@@ -1,7 +1,7 @@
 /**
  * 
  */
-package keg.challanges;
+package com.anirak.challanges;
 
 /**
  * @author Owner

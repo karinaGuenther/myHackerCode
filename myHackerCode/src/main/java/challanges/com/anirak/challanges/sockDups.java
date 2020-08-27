@@ -1,7 +1,7 @@
 /**
  * 
  */
-package keg.challanges;
+package com.anirak.challanges;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

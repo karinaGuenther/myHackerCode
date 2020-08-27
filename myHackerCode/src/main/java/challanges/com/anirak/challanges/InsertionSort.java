@@ -1,7 +1,7 @@
 /**
  * 
  */
-package keg.challanges;
+package com.anirak.challanges;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package keg.challanges;
+package com.anirak.challanges;
 
 import static java.util.stream.Collectors.toList;
 
