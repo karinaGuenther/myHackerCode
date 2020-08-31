@@ -1,4 +1,4 @@
-package keg.linkedExample;
+package com.anirak.mysnippets;
 /**
  * 
  */
@@ -7,22 +7,25 @@ package keg.linkedExample;
  * @author Owner
  *
  */
-public class simpleSinglyLinkedListExample<V> {
+public class simpleSinglyLinkedListExample<V>
+{
 
 	// Instance Variables. Add the tail reference.
 	protected CrunchyNode<V> head, tail;
 	protected long size;
 
 	// Empty list constructor first
-	public simpleSinglyLinkedListExample() {
-        head = null;
-        tail = null;
-        size = 0;
-    }
+	public simpleSinglyLinkedListExample()
+	{
+		head = null;
+		tail = null;
+		size = 0;
+	}
 
 	// Method to add CrunchyNodes to the list. Storage space for the CrunchyNode
 	// is already allocated in the calling method
-	public void addFirst(CrunchyNode<V> CrunchyNode) {
+	public void addFirst(CrunchyNode<V> CrunchyNode)
+	{
 		// Set the tail only if this is the very first CrunchyNode
 		if (tail == null)
 			tail = CrunchyNode;
@@ -35,7 +38,8 @@ public class simpleSinglyLinkedListExample<V> {
 
 	// Add new CrunchyNode after current CrunchyNode, checking to see if we are
 	// at the tail
-	public void addAfter(CrunchyNode<V> currentCrunchyNode, CrunchyNode<V> newCrunchyNode) {
+	public void addAfter(CrunchyNode<V> currentCrunchyNode, CrunchyNode<V> newCrunchyNode)
+	{
 		if (currentCrunchyNode == tail)
 			tail = newCrunchyNode;
 		newCrunchyNode.setNext(currentCrunchyNode.getNext());
@@ -46,7 +50,8 @@ public class simpleSinglyLinkedListExample<V> {
 	}
 
 	// Add new CrunchyNode after the tail CrunchyNode.
-	public void addLast(CrunchyNode<V> CrunchyNode) {
+	public void addLast(CrunchyNode<V> CrunchyNode)
+	{
 		CrunchyNode.setNext(null);
 		tail.setNext(CrunchyNode);
 		tail = CrunchyNode;
@@ -56,7 +61,8 @@ public class simpleSinglyLinkedListExample<V> {
 	// Methods to remove CrunchyNodes from the list. (Unfortunately, with a single
 	// linked list. there is no way to remove last. Need a previous reference to do
 	// that.
-	public CrunchyNode<V> removeFirst() {
+	public CrunchyNode<V> removeFirst()
+	{
 		if (head == null)
 			System.err.println("Error:  Attempt to remove from an empty list");
 
@@ -76,7 +82,8 @@ public class simpleSinglyLinkedListExample<V> {
 	// CrunchyNode, but since the list is single linked, there is no way to refer
 	// to the CrunchyNode before the tail CrunchyNode. Need to traverse the
 	// list.
-	public CrunchyNode<V> removeLast() {
+	public CrunchyNode<V> removeLast()
+	{
 		// Declare local variables/objects
 		CrunchyNode<V> CrunchyNodeBefore;
 		CrunchyNode<V> CrunchyNodeToRemove;
@@ -106,7 +113,8 @@ public class simpleSinglyLinkedListExample<V> {
 	// Remove a known CrunchyNode from the list. No need to search or return a
 	// value. This method makes use of a 'before' reference in order to allow list
 	// manipulation.
-	public void remove(CrunchyNode<V> CrunchyNodeToRemove) {
+	public void remove(CrunchyNode<V> CrunchyNodeToRemove)
+	{
 		// Declare local variables/references
 		CrunchyNode<V> CrunchyNodeBefore, currentCrunchyNode;
 
@@ -145,15 +153,18 @@ public class simpleSinglyLinkedListExample<V> {
 	}
 
 	// The gets to return the head and/or tail CrunchyNodes and size of the list
-	public CrunchyNode<V> getFirst() {
+	public CrunchyNode<V> getFirst()
+	{
 		return head;
 	}
 
-	public CrunchyNode<V> getLast() {
+	public CrunchyNode<V> getLast()
+	{
 		return tail;
 	}
 
-	public long getSize() {
+	public long getSize()
+	{
 		return size;
 	}
 }

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package keg.mysnippets;
+package com.anirak.mysnippets;
 
 /**
  * @author Owner This is to test out someones question about thw switch statment

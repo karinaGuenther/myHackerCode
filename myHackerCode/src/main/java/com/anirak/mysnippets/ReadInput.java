@@ -1,7 +1,7 @@
 /**
  * 
  */
-package keg.utilities;
+package com.anirak.mysnippets;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Owner
  *
  */
-public class ReadInput 
+public class ReadInput
 {
 	public void scanInput()
 	{

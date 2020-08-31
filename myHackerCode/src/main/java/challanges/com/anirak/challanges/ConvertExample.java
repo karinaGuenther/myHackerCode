@@ -1,18 +1,13 @@
-package keg.challanges;
+package com.anirak.challanges;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
 /**
  * 
  */
-import java.util.Scanner;
+import java.util.*;
+import java.util.Map.Entry;
 import java.util.function.Function;
 import java.util.function.IntFunction;
 import java.util.stream.Collectors;
@@ -75,7 +70,7 @@ public class ConvertExample
 	}
 
 	/**
-	 * @param  numsList
+	 * @param numsList
 	 * @return
 	 */
 	private Integer findSubArray(List<Integer> numsList)
