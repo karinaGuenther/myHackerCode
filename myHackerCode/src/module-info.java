@@ -7,7 +7,7 @@
  */
 module myHackerCode
 {
-	exports keg.thirtyDays;
+	exports com.anirak.thirty;
 	exports keg.linkedExample;
 	exports test.junit;
 

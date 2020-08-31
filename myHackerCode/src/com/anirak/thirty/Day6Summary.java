@@ -1,7 +1,7 @@
 /**
  * 
  */
-package keg.thirtyDays;
+package com.anirak.thirty;
 
 import java.util.ArrayList;
 import java.util.List;
